@@ -163,5 +163,5 @@ void Task_2_22() {
     scanf("%f", &x);
     for (int i=1; i <= 4; i++)
         x_21*=(x_2 *= x*x);
-    printf("x^21 за 6 операций =%f\n", x_21*x);
+    printf("x^21 За 6 операций =%f\n", x_21*x);
 }
