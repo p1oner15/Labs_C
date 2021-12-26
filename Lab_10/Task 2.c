@@ -4,9 +4,9 @@
 
 int task() {
     char *s1 = (char *) malloc(10),
-            *s2 = (char *) malloc(10),
-            *s3 = (char *) malloc(10),
-            *s4 = (char *) malloc(10);
+    *s2 = (char *) malloc(10),
+    *s3 = (char *) malloc(10),
+    *s4 = (char *) malloc(10);
 
     printf("Введите строку 1:\n");
     gets(s1);
