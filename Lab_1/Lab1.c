@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
-
 //Task_2_1:  123,00123,058,-5, 0xaf, 0X0 - Верные числа и их значения
 //Task_2_2:  1,71,034159E1F, .005, 1234.56789L - Верные числа и их значения
-
 void Lab_2_3(){
     int a, b, c, d, e, q, k, g, f;
     a = 2; b = 13; c = 7; d = 19; e = -4;
@@ -17,16 +15,14 @@ void Lab_2_3(){
 void Task_2_4(){
     int a, c;
     c = 5;
-
 //    c++;
 //    a = 2*c;
-
+    
 //    c+=1;
 //    a = c+c;
-
+    
 //    ++c;
 //    a = c+c;
-
     a = (c+=1)+c;
 
     printf("c = %d, a = %d", c, a);
@@ -34,7 +30,6 @@ void Task_2_4(){
 void Task_2_5() {
     int a, c;
     c = 5;
-
 //    --c;
 //    a = c/2;
 
@@ -43,7 +38,6 @@ void Task_2_5() {
 //    a = c--/2;
 
 //    a = (c = c - 1)/2;
-
     a = (c -= 1)/2;
 
 
