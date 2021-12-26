@@ -16,15 +16,12 @@ void Task_2_4(){
     int a, c;
     c = 5;
 //    c++;
-//    a = 2*c;
-    
+//    a = 2*c;    
 //    c+=1;
 //    a = c+c;
-    
 //    ++c;
 //    a = c+c;
     a = (c+=1)+c;
-
     printf("c = %d, a = %d", c, a);
 }
 void Task_2_5() {
@@ -32,15 +29,10 @@ void Task_2_5() {
     c = 5;
 //    --c;
 //    a = c/2;
-
 //    a = --c/2;
-
 //    a = c--/2;
-
 //    a = (c = c - 1)/2;
     a = (c -= 1)/2;
-
-
     printf("c = %d, a = %d",c,a);
 }
 void Task_2_7() {
@@ -76,7 +68,6 @@ void Task_2_8() {
 //	Ответ: неверно
 //      x and true = x , and Можно заменить на &&. 
 //	Ответ: верно
-
 void Task_2_14() {
     double d;
     float f;
@@ -102,20 +93,17 @@ void Task_2_14() {
     i = s = lng = d = f = (double) (100 / 3);
     printf("s = %hd i = %d lng = %ld f = %f d = %f\n", s, i, lng, f, d);
 }
-
 void Task_2_16() {
     float x;
     scanf("%f", &x);
     return 2 * powf(x, 4) - 3 * powf(x, 3) + 4 * powf(x, 2) - 5 * x + 6;
 }
-
 void Task_2_17() {
     int k, x;
     scanf("%d", &x);
     k = x % 1000 / 100;
     printf("k = %d", k);
 }
-
 void Task_2_18() {
     int k = 0, x;
     scanf("%d", &x);
@@ -125,7 +113,6 @@ void Task_2_18() {
     }
     printf("%d", k);
 }
-
 void Task_2_19() {
     int k;
     float x;
@@ -133,7 +120,6 @@ void Task_2_19() {
     k = (int) (x * 10) % 10;
     printf("%d", k);
 }
-
 void Task_2_20() {
     int k = 0, x, i = 2;
     scanf("%d", &x);
@@ -143,7 +129,6 @@ void Task_2_20() {
     }
     printf("%d", k);
 }
-
 void Task_2_21() {
     int s, m, y;
     scanf("%d", &s);
@@ -151,7 +136,6 @@ void Task_2_21() {
     m = s % 3600 / 60;
     printf("Прошло: %d-hours, %d-minutes", y, m);
 }
-
 void Task_2_22() {
     float x, x_2=1,x_21=1;
     scanf("%f", &x);
